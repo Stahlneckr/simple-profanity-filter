@@ -13,6 +13,12 @@ npm install --save simply-profanity-filter
 ```javascript
 var profanityFilter = require('simply-profanity-filter');
 
+// simple filtering
 var filtered_string = profanityFilter.filter("Some bad words, bitch!");
 console.log(filtered_string); // "Some bad words, *****!"
+
+// add some custom bad words
+profanityFilter.addWords(["custom", "bad", "words"]);
+var filtered_string = profanityFilter.filter("Some custom bad words, bitch!");
+console.log(filtered_string); // "Some ****** *** *****, *****!"
 ```
