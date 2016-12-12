@@ -21,4 +21,9 @@ console.log(filtered_string); // "Some bad words, *****!"
 profanityFilter.addWords(["custom", "bad", "words"]);
 var filtered_string = profanityFilter.filter("Some custom bad words, bitch!");
 console.log(filtered_string); // "Some ****** *** *****, *****!"
+
+// replace bad words list with new list
+profanityFilter.replaceWords(["custom", "bad", "words"]);
+var filtered_string = profanityFilter.filter("Some custom bad words, bitch!");
+console.log(filtered_string); // "Some ****** *** *****, bitch!"
 ```
