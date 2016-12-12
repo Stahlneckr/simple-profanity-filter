@@ -1,3 +1,4 @@
 
 exports.filter = require('./lib/filter');
-exports.badwords = require('./lib/bad-words');
+exports.addWords = require('./lib/add-words');
+exports.badWords = require('./lib/bad-words');

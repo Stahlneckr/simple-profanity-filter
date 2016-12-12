@@ -1,6 +1,6 @@
 # simple-profanity-filter
 
-A very simply profanity filter. Replaces profanity with asterisk. The module currently uses the Google list of bad words as default. Adding/replacing the dictionary coming soon.
+A very simple JS profanity filter. Replaces profanity with asterisk. The module currently uses the Google list of bad words as default. Adding/replacing the dictionary coming soon.
 
 ## Installation
 
