@@ -1,0 +1,26 @@
+{
+  "name": "simple-profanity-filter",
+  "description": "A very simple profanity filter.",
+  "author": "Nick Stahlnecker",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stahlneckr/simple-profanity-filter.git"
+  },
+  "keywords": [
+    "profanity",
+    "filter",
+    "curse",
+    "swear",
+    "bad",
+    "words"
+  ]
+}
