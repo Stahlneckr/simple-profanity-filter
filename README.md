@@ -14,5 +14,5 @@ npm install --save simply-profanity-filter
 var profanityFilter = require('simply-profanity-filter');
 
 var filtered_string = profanityFilter.filter("Some bad words, bitch! ");
-console.log(filtered_string); // "Some bad words, \*\*\*\*\*!"
+console.log(filtered_string); // "Some bad words, *****!"
 ```
