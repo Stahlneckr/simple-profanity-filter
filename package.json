@@ -2,7 +2,7 @@
   "name": "simple-profanity-filter",
   "description": "A very simple profanity filter.",
   "author": "Nick Stahlnecker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "license": "MIT",
   "directories": {
