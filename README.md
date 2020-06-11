@@ -5,7 +5,7 @@ A very simple JS profanity filter. Replaces profanity with asterisk. The module 
 ## Installation
 
 ```
-npm install --save simply-profanity-filter
+npm install --save simple-profanity-filter
 ```
 
 ## Usage
